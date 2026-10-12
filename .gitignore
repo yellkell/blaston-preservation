@@ -1,0 +1,11 @@
+# Allow-list: only our own docs and tools are tracked.
+# Never commit game files, dumps, decompiled code, extracted assets, backups, captures or logs
+# (Resolution Games' copyrighted material and personal data/tokens).
+/*
+!/.gitignore
+!/README.md
+!/FINDINGS.md
+!/docs/
+!/tools/
+__pycache__/
+*.pyc
